@@ -47,7 +47,7 @@
         }
 
         .margin-top {
-            margin-top: 1.25rem;
+            margin-top: 3rem;
         }
 
         .custom-table th {
@@ -65,6 +65,7 @@
         .signature-box {
             text-align: center;
             margin-top: 40px;
+            width: 50%;
         }
     </style>
 </head>
@@ -104,7 +105,7 @@
             </tr>
         </table>
 
-        <table class="w-full">
+        <table class="w-full" style="margin-bottom: 20px;">
             <tr>
                 <td style="width: 50%; vertical-align: top;">
                     <table>
@@ -132,7 +133,7 @@
             </tr>
         </table>
 
-        <table class="w-full">
+        <table class="w-full" style="margin-bottom: 20px;">
             <tr>
                 <td style="width: 50%; vertical-align: top;">
                     <table>

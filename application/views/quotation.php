@@ -27,6 +27,7 @@
             border: 1px solid #000000;
             padding: 8px;
             text-align: left;
+            text-align: center;
         }
 
         .custom-table td[colspan].no-border {
@@ -53,11 +54,6 @@
         .margin-top {
             margin-top: 1.25rem;
         }
-
-        .custom-table th {
-            padding: 8px;
-            text-align: center;
-        }
     </style>
 </head>
 
@@ -70,7 +66,7 @@
         </tr>
     </table>
 
-    <div class="margin-top" style="margin-bottom: 40px;">
+    <div class="margin-top" style="margin-bottom: 40px; margin-top: 50px;">
         <table class="w-full">
             <tr>
                 <td>Tanggal</td>
@@ -115,7 +111,7 @@
         <thead>
             <tr class="head-table" style="background-color: #E7E6E6;">
                 <th scope="col">No</th>
-                <th scope="col">Description</th>
+                <th scope="col" style="width: 40%;">Description</th>
                 <th scope="col">Item Code</th>
                 <th scope="col">Qty (Pcs)</th>
                 <th scope="col">Best Price</th>
@@ -125,7 +121,7 @@
         <tbody>
             <tr>
                 <th scope="row">1</th>
-                <td>BRP132 LED175/CW 140W 220-240V DM GM</td>
+                <td style="width: 40%; text-align: left;">BRP132 LED175/CW 140W 220-240V DM GM</td>
                 <td>Philips</td>
                 <td>1</td>
                 <td>3.072.800</td>
@@ -133,7 +129,7 @@
             </tr>
             <tr style="font-weight: bold;">
                 <td colspan="4" class="no-border"></td>
-                <td style="text-align: center;">Total</td>
+                <td>Total</td>
                 <td >3.072.800</td>
             </tr>
         </tbody>

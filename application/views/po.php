@@ -54,8 +54,15 @@
         .sup-table th,
         .sup-table td {
             border: 2px solid #000000;
-            padding: 2px;
             text-align: center;
+        }
+
+        .sup-table td.no-border-bottom {
+            border-bottom: none;
+        }
+
+        .sup-table td.no-border-top {
+            border-top: none;
         }
 
         .sup-table td[colspan].no-border {
@@ -176,11 +183,11 @@
     </table>
 
     <div class="margin-top" style="margin-left: 18px;">Please supply the following items :</div>
-    <table class="sup-table" style="margin-bottom: -100px;">
+    <table class="sup-table" style="margin-bottom: -80px;">
         <thead style="border: 2px solid #000000; padding: 4px; background-color: #E7E6E6;">
             <tr>
                 <th>No</th>
-                <th>Description</th>
+                <th style="width: 40%;">Description</th>
                 <th>Item Code</th>
                 <th>Qty</th>
                 <th>UOM</th>
@@ -190,13 +197,76 @@
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
-                <td>LED Floodlight</td>
-                <td>NNP35939K031</td>
-                <td>8</td>
-                <td>Pcs</td>
-                <td>5.535.000</td>
-                <td>44.280.000</td>
+                <td class="no-border-bottom">1</td>
+                <td class="no-border-bottom" style="width: 40%; text-align: left;">LED Floodlight</td>
+                <td class="no-border-bottom">NNP35939K031</td>
+                <td class="no-border-bottom">8</td>
+                <td class="no-border-bottom">Pcs</td>
+                <td class="no-border-bottom">5.535.000</td>
+                <td class="no-border-bottom">44.280.000</td>
+            </tr>
+            <tr>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top">-</td>
+            </tr>
+            <tr>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top">-</td>
+            </tr>
+            <tr>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top">-</td>
+            </tr>
+            <tr>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top">-</td>
+            </tr>
+            <tr>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top">-</td>
+            </tr>
+            <tr>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top">-</td>
+            </tr>
+            <tr>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top"></td>
+                <td class="no-border-bottom no-border-top">-</td>
             </tr>
             <tr style="border: 2px solid #000000; padding: 4px; background-color: #E7E6E6;">
                 <td colspan="7">FINISH ORDER</td>
@@ -241,9 +311,9 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><img src="<?= base_url('assets/img/ttd-prepared.jpg'); ?>" alt="ttd-prepared" style="height: 70px; width: 50%;" /></td>
-                            <td><img src="<?= base_url('assets/img/ttd.png'); ?>" alt="ttd" style="height: 70px; width: 50%;" /></td>
-                            <td><img src="<?= base_url('assets/img/ttd-approve.jpg'); ?>" alt="ttd-approve" style="height: 70px; width: 50%;" /></td>
+                            <td><img src="<?= base_url('assets/img/ttd-prepared.jpg'); ?>" alt="ttd-prepared" style="height: 90px; width: 60%;" /></td>
+                            <td><img src="<?= base_url('assets/img/ttd.png'); ?>" alt="ttd" style="height: 90px; width: 60%;" /></td>
+                            <td><img src="<?= base_url('assets/img/ttd-approve.jpg'); ?>" alt="ttd-approve" style="height: 90px; width: 60%;" /></td>
                         </tr>
                         <tr>
                             <td>Zuan Syafa Alfafa </td>

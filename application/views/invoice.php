@@ -32,6 +32,17 @@
 
         .custom-table td[colspan].no-border {
             border: none;
+            padding-bottom: 20px;
+        }
+
+        .custom-table td.no-border-bottom {
+            border-bottom: none;
+            padding-bottom: 40px;
+        }
+
+        .custom-table td.no-border-top {
+            border-top: none;
+            padding-bottom: 40px;
         }
 
         h6 {
@@ -76,7 +87,7 @@
         </tr>
     </table>
 
-    <h1 style="margin-left:40%; margin-top: 30px; color:#0056A9;">INVOICE</h1>
+    <h1 style="margin-left:40%; margin-top: 50px; color:#0056A9;">INVOICE</h1>
     <table class="w-full margin-top" style="margin-bottom: 40px;">
         <tr>
             <td class="left">
@@ -117,11 +128,11 @@
     <table class="custom-table">
         <thead>
             <tr>
-                <th scope="col" rowspan="2">No</th>
-                <th scope="col" rowspan="2">Uraian</th>
-                <th scope="col" rowspan="2">Jumlah</th>
-                <th scope="col" id="p" headers="i r">Harga Satuan</th>
-                <th scope="col" id="p" headers="i r">Total Harga</th>
+                <th scope="col" rowspan="2">No.</th>
+                <th scope="col" rowspan="2">URAIAN</th>
+                <th scope="col" rowspan="2">JUMLAH</th>
+                <th scope="col" id="p" headers="i r">HARGA SATUAN</th>
+                <th scope="col" id="p" headers="i r">HARGA TOTAL</th>
             </tr>
             <tr>
                 <th scope="col" id="r" headers="p">(Rp)</th>
@@ -130,13 +141,20 @@
         </thead>
         <tbody>
             <tr>
-                <th scope="row">1</th>
-                <td>TCW097 2xTL‐D36W HFS 220V 50Hz + TLLED16W 2100lm
+                <td class="no-border-bottom"></td>
+                <td class="no-border-bottom">Invoice Supply Lampu LED Panasonic</td>
+                <td class="no-border-bottom"></td>
+                <td class="no-border-bottom"></td>
+                <td class="no-border-bottom"></td>
+            </tr>
+            <tr>
+                <td class="no-border-top">1</td>
+                <td class="no-border-top">TCW097 2xTL‐D36W HFS 220V 50Hz + TLLED16W 2100lm
                     6500K Panasonic
                 </td>
-                <td>6 Set</td>
-                <td>1.370.000</td>
-                <td>8.220.000</td>
+                <td class="no-border-top">6 Set</td>
+                <td class="no-border-top">1.370.000</td>
+                <td class="no-border-top">8.220.000</td>
             </tr>
 
             <tr>
